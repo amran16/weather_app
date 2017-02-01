@@ -1,0 +1,45 @@
+body{
+  background: url("https://images.pexels.com/photos/149671/pexels-photo-149671.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-size:cover;
+  font-family: 'Lato';
+}
+
+.container{
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+#city{
+  font-size: 40px;
+}
+
+#fTemp{
+  font-size: 45px;
+  font-weight: bold;
+  margin:30px;
+  width: 200px;
+  background: rgba(95,158,160,.2);
+}
+
+#icon{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+img{
+  height: 100px;
+}
+
+#high-low, #windSpeed{
+  margin:20px;
+  font-size: 30px;
+  font-weight: bold;
+  background: rgba(233,150,122,.2);
+}
+
+
+
