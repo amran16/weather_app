@@ -1,7 +1,7 @@
 body{
   background: url("https://images.pexels.com/photos/149671/pexels-photo-149671.jpeg?h=350&auto=compress&cs=tinysrgb");
   background-size:cover;
-  font-family: 'Lato';
+  font-family: serif;
 }
 
 .container{
@@ -9,20 +9,22 @@ body{
   padding-top: 50px;
 }
 
-h1{
+h2{
 	font-size: 50px;
+  font-weight: bold;
 }
 
 #city{
-  font-size: 40px;
+  font-size: 25px;
 }
 
 #fTemp{
   font-size: 45px;
   font-weight: bold;
-  margin:30px;
+  margin:10px;
   width: 200px;
   background: rgba(95,158,160,.2);
+  border: none;
 }
 
 #icon{
@@ -35,11 +37,9 @@ img{
 }
 
 #high-low, #windSpeed{
-  margin:20px;
+  margin:10px;
   font-size: 30px;
   font-weight: bold;
   background: rgba(233,150,122,.2);
+  border: none;
 }
-
-
-
