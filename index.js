@@ -5,13 +5,13 @@ $(document).ready(function(){
 
   //IP Geolocation API: http://ip-api.com/
 
-  var Geo_Ip = 'http://ip-api.com/json';
+  var Geo_Ip = 'https://crossorigin.me/http://ip-api.com/json';
 
   $.getJSON(Geo_Ip, function(data){
 
     var city = data.city;
 
-    var api = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&APPID=' + Api_Key;
+    var api = 'https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&APPID=' + Api_Key;
 
    $.getJSON(api, function(wea_data){
 
