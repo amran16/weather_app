@@ -1,9 +1,9 @@
-var Api_Key = '0ecd65091ca9c34ed5953e2be578f1ff';
-var cel = false;
+
 
 $(document).ready(function(){
 
-  //IP Geolocation API: http://ip-api.com/
+  var Api_Key = '0ecd65091ca9c34ed5953e2be578f1ff';
+  var cel = false;
 
   var Geo_Ip = 'http://ip-api.com/json';
 
